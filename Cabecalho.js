@@ -12,25 +12,13 @@ export default class Cabecalho extends React.Component {
     render(){
         return(
             <View className="cabecalho">
-                <Text>
-                    <table>
-                        <tr>
-                            <th>Aluno</th>
-                            <th>Curso</th>
-                                          
-                        </tr>
-                        <tr>
-                            <td>{this.nomealuno}</td>
-                            <td>{this.cursoaluno}</td>
-                            
-                        </tr>
-                    </table>
-                                                      
-                    
-                </Text>
+                <Text><h1>{this.nomealuno}</h1></Text>
+                <Text><b>Curso:</b> {this.cursoaluno}</Text>              
 
             </View>
         )
     }
 }
+
+
 

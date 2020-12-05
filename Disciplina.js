@@ -9,7 +9,7 @@ export default class Disciplina extends React.Component {
     render(){
         return(
             <View className="disciplina">
-                <Text>Disciplina: {this.disciplina}</Text>
+                <Text><b>Disciplina:</b> {this.disciplina}</Text>
             </View>
         )
     }
